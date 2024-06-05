@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "[Descrição do desafio](https://efficient-sloth-d85.notion.site/Desafio-01-2d48608f47644519a408b438b52d913f)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node --watch src/server.js",  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
